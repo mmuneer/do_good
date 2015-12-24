@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sg0218900/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/sg0218900/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'dropbox',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json do_good@1.0.0 No description
+5 warn package.json do_good@1.0.0 No repository field.
+6 warn package.json do_good@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'dropbox', null ]
+9 verbose cache add name=undefined spec="dropbox" args=["dropbox",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'dropbox',
+10 verbose parsed url   path: 'dropbox',
+10 verbose parsed url   href: 'dropbox' }
+11 silly lockFile b2309b10-dropbox dropbox
+12 verbose lock dropbox /Users/sg0218900/.npm/b2309b10-dropbox.lock
+13 silly lockFile b2309b10-dropbox dropbox
+14 silly lockFile b2309b10-dropbox dropbox
+15 verbose addNamed [ 'dropbox', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 60d8d271-dropbox dropbox@
+18 verbose lock dropbox@ /Users/sg0218900/.npm/60d8d271-dropbox.lock
+19 silly addNameRange { name: 'dropbox', range: '*', hasData: false }
+20 verbose request where is /dropbox
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id c7cd7deffbf115ec
+23 verbose url raw /dropbox
+24 verbose url resolving [ 'https://registry.npmjs.org/', './dropbox' ]
+25 verbose url resolved https://registry.npmjs.org/dropbox
+26 verbose request where is https://registry.npmjs.org/dropbox
+27 info trying registry request attempt 1 at 09:12:35
+28 http GET https://registry.npmjs.org/dropbox
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info trying registry request attempt 2 at 09:12:45
+31 http GET https://registry.npmjs.org/dropbox
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+33 info trying registry request attempt 3 at 09:13:45
+34 http GET https://registry.npmjs.org/dropbox
+35 silly lockFile 60d8d271-dropbox dropbox@
+36 silly lockFile 60d8d271-dropbox dropbox@
+37 error network getaddrinfo ENOTFOUND
+37 error network This is most likely not a problem with npm itself
+37 error network and is related to network connectivity.
+37 error network In most cases you are behind a proxy or have bad network settings.
+37 error network
+37 error network If you are behind a proxy, please make sure that the
+37 error network 'proxy' config is set properly.  See: 'npm help config'
+38 error System Darwin 15.0.0
+39 error command "/Users/sg0218900/.nvm/v0.10.40/bin/node" "/Users/sg0218900/.nvm/v0.10.40/bin/npm" "install" "dropbox" "--save"
+40 error cwd /Users/sg0218900/sabre/do_good
+41 error node -v v0.10.40
+42 error npm -v 1.4.28
+43 error syscall getaddrinfo
+44 error code ENOTFOUND
+45 error errno ENOTFOUND
+46 verbose exit [ 1, true ]
