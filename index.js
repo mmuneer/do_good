@@ -3,11 +3,6 @@ var dbox = require('./dropbox_util')
 var app = express();
 
 
-app.get('/', function (req, res) {
-  res.send('Hello World123!');
-});
-
-
 
 //setup server
   var server = app.listen(3000, function () {
